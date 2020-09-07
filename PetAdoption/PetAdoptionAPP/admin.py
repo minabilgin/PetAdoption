@@ -11,7 +11,7 @@ class PetAdmin(admin.ModelAdmin):
 
 @admin.register(PaidPets)
 class PaidPetAdmin(admin.ModelAdmin):
-    list_display = ["id", "sex", "name", "age", "type", "price"]
+    list_display = ["id", "price"]
 
 
 @admin.register(PetStuff)
